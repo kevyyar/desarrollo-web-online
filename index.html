@@ -10,11 +10,9 @@
   </head>
   <body>
     <header class="header">
-      <div>
-        <figure>
-          <img src="images/logo.png" alt="Logo of an ugly dude" />
-        </figure>
-      </div>
+      <figure>
+        <img src="images/logo.png" alt="Logo of an ugly dude" />
+      </figure>
       <nav class="menu">
         <ul>
           <li><a href="#">Portfolio</a></li>
@@ -28,22 +26,22 @@
         Hello I am <strong>Kevin</strong> a JS Developer <br />
         and have a Passion for Teaching
       </h1>
-      <!-- <figure class="hero-imageContainer"> -->
-      <!--   <img -->
-      <!--     class="hero-image" -->
-      <!--     src="images/hero.jpg" -->
-      <!--     width="500" -->
-      <!--     height="300" -->
-      <!--     alt="image of myself" -->
-      <!--   /> -->
-      <!-- </figure> -->
+      <figure class="hero-imageContainer">
+        <img
+          class="hero-image"
+          src="images/hero.jpg"
+          width="500"
+          height="300"
+          alt="image of myself"
+        />
+      </figure>
     </section>
     <section id="portfolio" class="portfolio">
-      <h2>Projects (Outstanding Projects)</h2>
+      <h2 class="portfolio-title">Projects (Outstanding Projects)</h2>
       <article class="project">
         <div class="project-details">
           <h3 class="project-title">Platzi Video</h3>
-          <h6 class="project-course">React Native / React</h6>
+          <h6 class="project-cours;e">React Native / React</h6>
           <p class="project-date">
             <small><strong>Date:</strong> 01/07/2019</small>
           </p>
@@ -99,8 +97,8 @@
         </figure>
       </article>
     </section>
-    <section id="events">
-      <h2>More About My Experience</h2>
+    <h2 class="event-list-title">More About My Experience</h2>
+    <section id="events" class="event-list">
       <article class="event">
         <figure class="event-imageContainer">
           <img
@@ -110,14 +108,96 @@
             alt="image of myself"
           />
         </figure>
-        <h3 class="event-title">PlatziConf Mexico 2019</h3>
-        <p class="event-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-          voluptates, et esse at sapiente praesentium corporis a cumque laborum
-          vel minima illum itaque beatae quibusdam quam animi ipsam, in enim
-          repellat quasi cum sequi tempora!
-        </p>
-        <a class="event-url" href="#" target="_blank">See Talk</a>
+        <div class="event-details">
+          <h3 class="event-title">PlatziConf Mexico 2019</h3>
+          <p class="event-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit voluptates, et esse at sapiente praesentium corporis a
+            cumque laborum vel minima illum itaque beatae quibusdam quam animi
+            ipsam, in enim repellat quasi cum sequi tempora!
+          </p>
+          <a class="event-url" href="#" target="_blank">See Talk</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img
+            class="event-image"
+            src="images/platzi-conf.jpg"
+            width="500"
+            alt="image of myself"
+          />
+        </figure>
+        <div class="event-details">
+          <h3 class="event-title">PlatziConf Mexico 2019</h3>
+          <p class="event-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit voluptates, et esse at sapiente praesentium corporis a
+            cumque laborum vel minima illum itaque beatae quibusdam quam animi
+            ipsam, in enim repellat quasi cum sequi tempora!
+          </p>
+          <a class="event-url" href="#" target="_blank">See Talk</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img
+            class="event-image"
+            src="images/platzi-conf.jpg"
+            width="500"
+            alt="image of myself"
+          />
+        </figure>
+        <div class="event-details">
+          <h3 class="event-title">PlatziConf Mexico 2019</h3>
+          <p class="event-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit voluptates, et esse at sapiente praesentium corporis a
+            cumque laborum vel minima illum itaque beatae quibusdam quam animi
+            ipsam, in enim repellat quasi cum sequi tempora!
+          </p>
+          <a class="event-url" href="#" target="_blank">See Talk</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img
+            class="event-image"
+            src="images/platzi-conf.jpg"
+            width="500"
+            alt="image of myself"
+          />
+        </figure>
+        <div class="event-details">
+          <h3 class="event-title">PlatziConf Mexico 2019</h3>
+          <p class="event-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit voluptates, et esse at sapiente praesentium corporis a
+            cumque laborum vel minima illum itaque beatae quibusdam quam animi
+            ipsam, in enim repellat quasi cum sequi tempora!
+          </p>
+          <a class="event-url" href="#" target="_blank">See Talk</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event-imageContainer">
+          <img
+            class="event-image"
+            src="images/platzi-conf.jpg"
+            width="500"
+            alt="image of myself"
+          />
+        </figure>
+        <div class="event-details">
+          <h3 class="event-title">PlatziConf Mexico 2019</h3>
+          <p class="event-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit voluptates, et esse at sapiente praesentium corporis a
+            cumque laborum vel minima illum itaque beatae quibusdam quam animi
+            ipsam, in enim repellat quasi cum sequi tempora!
+          </p>
+          <a class="event-url" href="#" target="_blank">See Talk</a>
+        </div>
       </article>
     </section>
     <section id="contact" class="contact">
@@ -134,7 +214,16 @@
       </form>
     </section>
     <footer class="footer">
-      footer content
+      <div class="footer-course">
+        <p class="footer-course-title">
+          Web Development Course 2020
+        </p>
+        <p><img src="images/platzi.png" width="80" alt="" /></p>
+        <!-- <img class="footer-image" src="images/platzi.png" alt="Platzi Logo" /> -->
+      </div>
+      <div class="footer-credits">
+        <p>Designed with ❤️ by Kevin</p>
+      </div>
     </footer>
   </body>
 </html>
